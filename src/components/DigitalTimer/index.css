@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+}
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-sub-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 30vw;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circular-shape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.right-container {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+}
+.image-icon-style {
+  height: 30px;
+  width: 30px;
+}
+.heading {
+  margin: 0;
+  color: #00d9f5;
+}
+.counter {
+  background-color: #00d9f5;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  margin: 0;
+}
